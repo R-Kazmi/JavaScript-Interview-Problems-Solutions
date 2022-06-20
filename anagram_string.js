@@ -3,6 +3,7 @@
 
 //find if two strings are anagrams of each other. both strings should be either lowercase or uppercase and no spaces.
 
+//anagram is a word or phrase made by transposing the letters of another word or phrase
 
 
 //first we split the string by character (adding each character to array) using split("") and sort it alphabetically using sort(). 
