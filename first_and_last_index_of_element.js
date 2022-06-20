@@ -1,4 +1,6 @@
 
+
+
 //find the first and last index of a target element in an sorted array
 
 
