@@ -4,6 +4,11 @@
 
 //given a binary tree, check if its symmetric at its center
 
+
+//a tree is symmetric if the left and right subtrees are mirror images of each other
+//isSymmetricRecursion will return false if any value is mismatched or one side of tree is null and the other is not
+//it will run recursion until it reaches a leaf node, and then return true if the leaf node is a mirror image of itself.
+
 function isSymmetricRecursion(left, right) {
     if (left === null && right === null) {
         return true;
