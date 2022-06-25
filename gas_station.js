@@ -4,11 +4,12 @@
 
 
 // given a circular list of gas stations, where we can go from a station i to a station i+1, and last one to first one
-// find the index of the station from where we srart to be able to traverse all the stations
+// find the index of the station from where we can srart to be able to traverse all the stations
 // and go back to the initial station without running out of gas
 
 // we can only go forward, 
-//so we need to find the index of the station where we can start to go back to the initial station
+//so we need to find the index of the station where we can start and come back to the initial station 
+//after traversing all the stations without gas being negative
 
 //the gas tank starts empty
 //gas[i] is the amount of gas we have at station i
